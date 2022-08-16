@@ -1,0 +1,95 @@
+.root {
+  height: 100px;
+  width: 250px;
+  border-radius: 50px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.dots {
+  display: flex;
+}
+
+.dots > div {
+  background: white;
+  margin: 0 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.dots.off > div {
+  opacity: 0.1;
+  transition: opacity 0.1s linear;
+}
+
+.dots.lr100 > div.dot1 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 2s;
+}
+.dots.lr100 > div.dot2 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 2s;
+}
+.dots.lr100 > div.dot3 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 2s;
+}
+
+.dots.l20-r90 > div.dot1 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 0.4s;
+}
+.dots.l20-r90 > div.dot2 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 2s;
+}
+.dots.l20-r90 > div.dot3 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 1.8s;
+}
+
+.dots.l50-r2 > div.dot1 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 1s;
+}
+.dots.l50-r2 > div.dot2 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 2s;
+}
+.dots.l50-r2 > div.dot3 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 0.04s;
+}
+
+.dots.lr100-case50 > div.dot1 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 2s;
+}
+.dots.lr100-case50 > div.dot2 {
+  opacity: 0.5;
+  transition: opacity 0.1s linear 1s;
+}
+.dots.lr100-case50 > div.dot3 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 2s;
+}
+
+.dots.l30-r40-case80 > div.dot1 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 0.6s;
+}
+.dots.l30-r40-case80 > div.dot2 {
+  opacity: 0.5;
+  transition: opacity 0.1s linear 1.6s;
+}
+.dots.l30-r40-case80 > div.dot3 {
+  opacity: 0.1;
+  transition: opacity 0.1s linear 0.8s;
+}
